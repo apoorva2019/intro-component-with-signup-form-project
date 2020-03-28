@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>Frontend Mentor | Intro component with sign up form</title>
@@ -21,26 +20,26 @@
       <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
         <div id="fname_div">
           <input type="text" name="First Name" placeholder="First Name">
-          <img id="icon-error1" src="images/icon-error.svg" >
+          <img id="icon-error1" src="images/icon-error.svg" alt="error">
           <br>
           <div class="val_error" id="fname_error"></div>
         </div>
         <div id="lname_div">
           <input type="text" name="Last Name" placeholder="Last Name">
-          <img id="icon-error2" src="images/icon-error.svg">
+          <img id="icon-error2" src="images/icon-error.svg" alt="error">
           <div class="val_error" id="lname_error"></div>
         </div>
         <div id="email_div">
-          <input type="" name="Email Address" placeholder="Email Address">
-          <img id="icon-error3" src="images/icon-error.svg">
+          <input name="Email Address" placeholder="Email Address">
+          <img id="icon-error3" src="images/icon-error.svg" alt="error">
           <div class="val_error" id="email_error"></div>
         </div>
         <div id="password_div">
           <input type="Password" name="Password" placeholder="Password">
-          <img id="icon-error4" src="images/icon-error.svg">
+          <img id="icon-error4" src="images/icon-error.svg" alt="error">
           <div class="val_error" id="password_error"></div>
         </div>
-        <button name="" type="submit" value="submit">Claim your free trial</button>
+        <button type="submit" value="submit">Claim your free trial</button>
         <br>
         <br>
         <label>By clicking the button, you are agreeing to our<a href="#">Terms and Services</a></label>
@@ -53,6 +52,6 @@
       Coded by <a href="#">Apoorva Rastogi</a>.
     </p>
   </footer>
-  <script type="text/javascript" src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
